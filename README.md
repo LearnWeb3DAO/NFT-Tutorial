@@ -131,7 +131,7 @@ RINKEBY_PRIVATE_KEY="add-the-rinkeby-private-key-here"
 
 ```
 
-You can think of Alchemy as AWS EC2 for blockchain. It is a node provider. Alchemy is a Node provider; it helps us to connect with the blockchain by providing us with nodes so that we can read and write to the blockchain. Alchemy is what helps us deploy the contract to rinkeby.
+You can think of Alchemy as AWS EC2 for blockchain. It is a node provider. It helps us to connect with the blockchain by providing us with nodes so that we can read and write to the blockchain. Alchemy is what helps us deploy the contract to rinkeby.
 
 - Now we would install `dotenv` package to be able to import the env file and use it in our config.
   In your terminal, execute these commands.
