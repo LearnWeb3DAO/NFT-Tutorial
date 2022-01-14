@@ -124,16 +124,18 @@ main()
 
 - Now create a `.env` file in the `NFT-Tutorial` folder and add the following lines. Use the instructions in the comments to get your Alchemy API Key and RINKEBY Private Key. Make sure that the account from which you get your rinkeby private key is funded with Rinkeby Ether.You can get some here: [https://faucet.rinkeby.io/](https://faucet.rinkeby.io/)
 
-```js
+```
 
 // Go to https://www.alchemyapi.io, sign up, create
 // a new App in its dashboard and select the network as Rinkeby, and replace "add-the-alchemy-key-url-here" with its key url
+
 ALCHEMY_API_KEY_URL = "add-the-alchemy-key-url-here"
 
 // Replace this private key with your RINKEBY account private key
 // To export your private key from Metamask, open Metamask and
 // go to Account Details > Export Private Key
 // Be aware of NEVER putting real Ether into testing accounts
+
 RINKEBY_PRIVATE_KEY = "add-the-rinkeby-private-key-here"
 
 ```
@@ -178,3 +180,4 @@ module.exports = {
 - If the `address` opens up on etherscan, you have deployed your first NFT 🎉
 - Go to the transaction details by clicking on the transaction hash, check that there was a token transfered to your address
 - If the NFT token doesn't show up in your wallet, click on import token and enter your contract `address`, remember that the decimals should be set to 0.
+- Yay! Now, go to `#😎|showcase` and show off your newly made NFT
