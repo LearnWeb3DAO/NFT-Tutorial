@@ -132,7 +132,7 @@ You're almost done! The next thing you'll need to do is sign up for a node provi
 2. Once you finish signing up, verify your email and go to https://www.quicknode.com/endpoints
 
 
-[img](https://ibb.co/9vjkVym)
+![img](https://i.ibb.co/xsQtfzK/quicknode.png)
 
 3. Now its time to set up some environment variables, create a new file .env under your root folder, and add the following lines of code to it:
 ```
