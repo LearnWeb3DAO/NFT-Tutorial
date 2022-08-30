@@ -122,7 +122,10 @@ main()
 ```
 
 - Now create a `.env` file in the `NFT-Tutorial` folder and add the following lines. Use the instructions in the comments to get your Quicknode API Key and Rinkeby Private Key. Make sure that the account from which you get your rinkeby private key is funded with Rinkeby Ether. You can get some here: [https://www.rinkebyfaucet.com/](https://www.rinkebyfaucet.com/)
-- Next, create a [Quicknode account](https://www.quicknode.com/?utm_source=learnweb3&utm_campaign=generic&utm_content=sign-up&utm_medium=learnweb3).
+
+## Setting up your node
+
+- Next, create a Quicknode account [here](https://www.quicknode.com/?utm_source=learnweb3&utm_campaign=generic&utm_content=sign-up&utm_medium=learnweb3).
 
 ```
 # Finish signing up for Quicknode
