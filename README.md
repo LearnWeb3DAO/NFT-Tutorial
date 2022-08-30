@@ -125,23 +125,20 @@ main()
 
 ## Setting up your node
 
-You're almost done! The next thing you'll need to do is sign up for a node provider. We'll be using Quicknode
+You're almost done! The next thing you'll need to do is sign up for a node provider. We'll be using Quicknode:
 
-1. Sign up for quicknode [here](https://www.quicknode.com/?utm_source=learnweb3&utm_campaign=generic&utm_content=sign-up&utm_medium=learnweb3).
+1. Sign up for Quicknode [here](https://www.quicknode.com/?utm_source=learnweb3&utm_campaign=generic&utm_content=sign-up&utm_medium=learnweb3).
 
-2. Once you finish signing up, verify your email and go to https://www.quicknode.com/endpoints.
+2. Once you finish signing up, verify your email and go to https://www.quicknode.com/endpoints
 
+
+[img](https://ibb.co/9vjkVym)
+
+3. Now its time to set up some environment variables, create a new file .env under your root folder, and add the following lines of code to it:
 ```
-# Finish signing up for Quicknode
-# a new App in its dashboard and select the network as goerli, and replace "add-the-quicknode-key-url-here" with its key url
-QUICKNODE_API_KEY_URL="add-the-quicknode-key-url-here"
-
-# Replace this private key with your RINKEBY account private key
-# To export your private key from Metamask, open Metamask and
-# go to Account Details > Export Private Key
-# Be aware of NEVER putting real Ether into testing accounts
-RINKEBY_PRIVATE_KEY="add-the-rinkeby-private-key-here"
-
+QUICKNODE_RPC_URL="QUICKNODE_RPC_URL"
+PRIVATE_KEY="YOUR-PRIVATE-KEY"
+QUICKNODE_WS_URL="QUICKNODE_WS_URL"
 ```
 
 You can think of Quicknode as AWS EC2 for blockchain. It is a node provider. It helps us to connect with the blockchain by providing us with nodes so that we can read and write to the blockchain. Quicknode is what helps us deploy the contract to rinkeby.
