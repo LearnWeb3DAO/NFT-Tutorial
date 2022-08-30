@@ -125,9 +125,11 @@ main()
 
 ## Setting up your node
 
-You're almost done!
+You're almost done! The next thing you'll need to do is sign up for a node provider. We'll be using Quicknode
 
-- Next, create a Quicknode account [here](https://www.quicknode.com/?utm_source=learnweb3&utm_campaign=generic&utm_content=sign-up&utm_medium=learnweb3).
+1. Sign up for quicknode [here](https://www.quicknode.com/?utm_source=learnweb3&utm_campaign=generic&utm_content=sign-up&utm_medium=learnweb3).
+
+2. Once you finish signing up, verify your email and go to https://www.quicknode.com/endpoints.
 
 ```
 # Finish signing up for Quicknode
