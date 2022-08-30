@@ -125,6 +125,8 @@ main()
 
 ## Setting up your node
 
+You're almost done!
+
 - Next, create a Quicknode account [here](https://www.quicknode.com/?utm_source=learnweb3&utm_campaign=generic&utm_content=sign-up&utm_medium=learnweb3).
 
 ```
