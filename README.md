@@ -121,13 +121,13 @@ main()
   });
 ```
 
-- Now create a `.env` file in the `NFT-Tutorial` folder and add the following lines. Use the instructions in the comments to get your Alchemy API Key and Rinkeby Private Key. Make sure that the account from which you get your rinkeby private key is funded with Rinkeby Ether. You can get some here: [https://www.rinkebyfaucet.com/](https://www.rinkebyfaucet.com/)
+- Now create a `.env` file in the `NFT-Tutorial` folder and add the following lines. Use the instructions in the comments to get your Quicknode API Key and Rinkeby Private Key. Make sure that the account from which you get your rinkeby private key is funded with Rinkeby Ether. You can get some here: [https://www.rinkebyfaucet.com/](https://www.rinkebyfaucet.com/)
 
 ```
 
-# Go to https://www.alchemyapi.io, sign up, create
-# a new App in its dashboard and select the network as Rinkeby, and replace "add-the-alchemy-key-url-here" with its key url
-ALCHEMY_API_KEY_URL="add-the-alchemy-key-url-here"
+# Go to [Quicknode](https://www.quicknode.com/?utm_source=learnweb3&utm_campaign=generic&utm_content=sign-up&utm_medium=learnweb3), sign up, create
+# a new App in its dashboard and select the network as goerli, and replace "add-the-quicknode-key-url-here" with its key url
+QUICKNODE_API_KEY_URL="add-the-quicknode-key-url-here"
 
 # Replace this private key with your RINKEBY account private key
 # To export your private key from Metamask, open Metamask and
@@ -137,7 +137,7 @@ RINKEBY_PRIVATE_KEY="add-the-rinkeby-private-key-here"
 
 ```
 
-You can think of Alchemy as AWS EC2 for blockchain. It is a node provider. It helps us to connect with the blockchain by providing us with nodes so that we can read and write to the blockchain. Alchemy is what helps us deploy the contract to rinkeby.
+You can think of Quicknode as AWS EC2 for blockchain. It is a node provider. It helps us to connect with the blockchain by providing us with nodes so that we can read and write to the blockchain. Quicknode is what helps us deploy the contract to rinkeby.
 
 - Now we would install `dotenv` package to be able to import the env file and use it in our config.
   In your terminal, execute these commands.
@@ -150,14 +150,14 @@ You can think of Alchemy as AWS EC2 for blockchain. It is a node provider. It he
 require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config({ path: ".env" });
 
-const ALCHEMY_API_KEY_URL = process.env.ALCHEMY_API_KEY_URL;
+const QUICKNODE_API_KEY_URL = process.env.QUICKNODE_API_KEY_URL;
 const RINKEBY_PRIVATE_KEY = process.env.RINKEBY_PRIVATE_KEY;
 
 module.exports = {
   solidity: "0.8.9",
   networks: {
     rinkeby: {
-      url: ALCHEMY_API_KEY_URL,
+      url: QUICKNODE_API_KEY_URL,
       accounts: [RINKEBY_PRIVATE_KEY],
     },
   },
