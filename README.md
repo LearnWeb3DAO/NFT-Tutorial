@@ -132,11 +132,11 @@ You're almost done! The next thing you'll need to do is sign up for a node provi
 2. Once you finish signing up, verify your email and go to https://www.quicknode.com/endpoints:
 
 ![img](https://i.ibb.co/xsQtfzK/quicknode.png)
-![img](https://i.ibb.co/R2vpLR8/quicknode2.png)
-
 * Once you go to the, click "Create an endpoint
 * Then, click Ethereum -> Goreli -> Continue -> Create endpoint. 
 * Once the endpoint is created, copy the HTTP provider and also the WSS provider. You will be using these 2 URLs for the next step.
+![img](https://i.ibb.co/R2vpLR8/quicknode2.png)
+
 
 
 ## Setting up enviorment variables
