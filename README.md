@@ -139,8 +139,8 @@ You're almost done! The next thing you'll need to do is sign up for a node provi
 * Once the endpoint is created, copy the HTTP provider and also the WSS provider. You will be using these 2 URLs for the next step.
 
 ## Setting up enviorment variables
+Now its time to set up some environment variables, create a new file .env under your root folder, and add the following lines of code to it:
 
-3. Now its time to set up some environment variables, create a new file .env under your root folder, and add the following lines of code to it:
 ```
 QUICKNODE_RPC_URL="QUICKNODE_RPC_URL"
 PRIVATE_KEY="YOUR-PRIVATE-KEY"
